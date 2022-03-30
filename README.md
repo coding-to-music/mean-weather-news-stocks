@@ -1,4 +1,4 @@
-# MY WEB APP - MEAN STACK [![Build Status](https://travis-ci.org/coding-to-music/mean-weather-news-stocks.svg?branch=master)](https://travis-ci.org/coding-to-music/mean-weather-news-stocks)
+# MEAN STACK - Weather News Stocks with Docker [![Build Status](https://travis-ci.org/coding-to-music/mean-weather-news-stocks.svg?branch=master)](https://travis-ci.org/coding-to-music/mean-weather-news-stocks)
 
 https://github.com/coding-to-music/mean-weather-news-stocks
 
