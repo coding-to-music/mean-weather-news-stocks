@@ -88,6 +88,22 @@ docker-compose -f docker-compose-release.yml up
 | danmgs/weather-app-frontend:1.1 | [link](https://hub.docker.com/repository/docker/danmgs/weather-app-frontend) | Angular WebApp                  |
 | danmgs/weather-app-frontend:1.1 | [link](https://hub.docker.com/repository/docker/danmgs/weather-app-frontend) | WebApi using Node.js/Express.js |
 
+## bring down the dockerized version
+
+```
+docker-compose -f docker-compose-release.yml up
+```
+
+```
+Stopping app-frontend                   ... done
+Stopping app-backend                    ... done
+Stopping my-weather-app_mongo-service_1 ... done
+Removing app-frontend                   ... done
+Removing app-backend                    ... done
+Removing my-weather-app_mongo-service_1 ... done
+Removing network my-weather-app_default
+```
+
 ### Instructions for deployment in the cloud
 
 - AZURE : create a web app in multi-container mode, use file **docker-compose-release.yml**
